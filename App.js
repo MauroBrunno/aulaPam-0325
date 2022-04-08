@@ -14,7 +14,7 @@ export default function App() {
 
         Logo2="book"
         texto2="Livros"
-        cor2="red"
+        cor2='green'
       />
       <Botao
         Logo="calculator-sharp"
@@ -23,7 +23,7 @@ export default function App() {
 
         Logo2="play"
         texto2="Filmes"
-        cor2="red"
+        cor2='red'
       />
         <Botao
         Logo="bar-chart"
@@ -32,7 +32,7 @@ export default function App() {
 
         Logo2="apps"
         texto2="Categorias"
-        cor2="red"
+        cor2='purple'
       />
     </View>
   );
