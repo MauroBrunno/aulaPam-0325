@@ -1,17 +1,16 @@
 import React from "react";
 import {View, TouchableOpacity, StyleSheet, Text, Image} from "react-native";
 
-//Criando a função e recebendo por props o título, valor e imagem do jogo
-export default function Jogos({titulo, valor, imagem}) {
+export default function Jogos2({titulo2, valor2, imagem2}) {
     return (
         <TouchableOpacity style={estilo.containerJogos}>
         <Image
         style={estilo.images}
-        source={require(`../../imagens/${imagem}`)}
+        source={require(`../../imagens/${imagem2}`)}
         />
 
-        <Text style={estilo.titulo}>{titulo}</Text>
-        <Text style={estilo.valor}>{valor}</Text>
+        <Text style={estilo.titulo}>{titulo2}</Text>
+        <Text style={estilo.valor}>{valor2}</Text>
         </TouchableOpacity>
     );
 }

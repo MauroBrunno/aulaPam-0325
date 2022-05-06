@@ -28,6 +28,6 @@ const Jogos = [
         nome: "Dragon Ball Fight",
         valor: "R$18,00",
         imagem: "dbz.jpg"
-    }
+    },
 ]
 export default Jogos;
