@@ -53,18 +53,21 @@ export default function App() {
         )}
       />
 
-      <FlatList
+  <FlatList
         horizontal = {true}
         data = {Dados2}
         keyExtractor = {(item) => item.id}
-        renderItem = { (item) => (
-          <Jogos2
-            titulo = {item.nome2}
-            imagem = {item.imagem2}
-            valor = {item.valor2}
+        renderItem = { ({item}) => (
+        
+        <Jogos2
+          titulo2 = {item.nome}
+          imagem = {item.imagem}
+          valor2 = {item.valor}
           />
         )}
       />
+
+    
     </View>
   );
 }

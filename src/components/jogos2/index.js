@@ -1,12 +1,12 @@
 import React from "react";
 import {View, TouchableOpacity, StyleSheet, Text, Image} from "react-native";
 
-export default function Jogos2({titulo2, valor2, imagem2}) {
+export default function Jogos2({titulo2, valor2, imagem}) {
     return (
         <TouchableOpacity style={estilo.containerJogos}>
         <Image
         style={estilo.images}
-        source={require(`../../imagens/${imagem2}`)}
+        source={require(`../../imagem/${imagem}`)}
         />
 
         <Text style={estilo.titulo}>{titulo2}</Text>
